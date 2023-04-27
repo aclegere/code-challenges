@@ -27,12 +27,12 @@ The middle character(s) of the word represented as a string.
 */
 
 function getMiddle(s) {
-    let len = str.length;
+    let len = s.length;
     let mid = Math.floor(len / 2); //using math floor to round down to the nearest int
 
     if (len % 2 === 0) {
-      return str.slice(mid - 1, mid + 1);
+      return s.slice(mid - 1, mid + 1);
     } else {
-      return str.charAt(mid);
+      return s.charAt(mid);
     }
 }
