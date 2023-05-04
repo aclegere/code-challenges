@@ -21,7 +21,8 @@ function longest(s1, s2) {
 
 /*
 
-I thought this one liner was pretty clever: const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('')
+I thought this one liner was pretty clever: 
+const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('')
 
 
 */
